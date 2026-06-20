@@ -174,7 +174,7 @@ with col2:
     st.markdown("### 📸 Upload Employee Photo")
 
     photo = st.file_uploader(
-        "",
+        "Upload Employee Photo",
         type=["jpg", "jpeg", "png"]
     )
 
