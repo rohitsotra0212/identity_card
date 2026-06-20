@@ -199,7 +199,7 @@ generate = st.button("🚀 Generate Identity Card")
 # FASTAPI URL
 # ==========================================
 
-FASTAPI_URL = "http://backend:8000/generate-id"
+FASTAPI_URL = "https://identity-card-backend.onrender.com/generate-id"
 
 # ==========================================
 # GENERATE CARD
