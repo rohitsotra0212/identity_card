@@ -175,7 +175,8 @@ with col2:
 
     photo = st.file_uploader(
         "Upload Employee Photo",
-        type=["jpg", "jpeg", "png"]
+        type=["jpg", "jpeg", "png"],
+        label_visibility="collapsed"
     )
 
     if photo:
