@@ -7,12 +7,12 @@ import uuid
 
 app = FastAPI(title="Identity Card API")
 
-CARD_DIR = "cards"
-PHOTO_DIR = "photos"
-
-os.makedirs(CARD_DIR, exist_ok=True)
-os.makedirs(PHOTO_DIR, exist_ok=True)
-
+@app.get("/")
+def home():
+    return {
+        "status": "running",
+        "service": "Identity Card API"
+    }
 
 def create_id_card(data, photo_path):
 
