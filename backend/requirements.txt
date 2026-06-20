@@ -1,0 +1,7 @@
+pillow 
+qrcode
+fastapi 
+uvicorn
+python-multipart
+streamlit
+requests
